@@ -1,7 +1,3 @@
-Group Contributions
-Clarieza Bautista - Homepage jsx and css
-Sheen Rodrigazo - Appointment Tab
-Charmiee Valerie Montes - Homepage 
 
 # Getting Started with Create React App
 
