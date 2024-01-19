@@ -33,53 +33,6 @@
     background: linear-gradient(135.74deg, #ff0b34 14.09%, #fd0579 83.81%);
   }
 
-  .cart2 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: self-end; /* Adjusted to move the symbols and "Book Appointment" to the right */
-  }
-  
-
-.cart2>svg{
-        width: 20px;
-        height: 20px;
-        background: white;
-        padding: 10px;
-        border-radius: 50%;
-        border: 6px solid var(--black);
-        font-size: 5rem;
-    }
-
-.signup{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    background: white;
-    padding: 10;
-    font-size: 1.3rem;
-    border-radius: 15px;
-    box-shadow: var(--shadow1);
-
-}
-
-/*.signup>:first-child{ /*remove thisssssssssssssssssssssssss
-    display: block;
-    width: 6rem;
-}
-*/
-
-.signup>:nth-child(2){
-    border-radius: 50%;
-    border: 1px solid skyblue;
-    display: flex;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-}
-
   .h_sides{
     display: grind;
     grid-template-rows: 1fr 1fr;
@@ -105,10 +58,12 @@
   .text2>:first-child{
     font-weight: 800;
     font-size: 2.5rem;
+    margin-top: 5rem;
   }
 
   .text2>:nth-child(2){
     display: block;
+    margin-top: 5rem;
   }
 
   .traffic{
@@ -128,6 +83,7 @@
     flex-direction: column;
     text-align: right;
     margin-top: 5rem;
+    
   }
 
   .customers>:first-child{
@@ -135,3 +91,51 @@
     text-align: right;
     font-size: 1.5rem;
   }
+
+  /* claireeeeeeee's expp at home*/
+  .cart2try {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    
+  }
+
+  .cart2try>svg{
+    width: 20px;
+    height: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: 6px solid var(--black);
+    font-size: 1rem;
+}
+
+.signuptry {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    background: white;
+    padding: 10px; /* Specify a unit, for example, pixels */
+    font-size: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Specify a unit for box-shadow */
+  }
+  
+
+.signuptry>:first-child{ 
+    display: block;
+    width: 6rem;
+}
+
+
+.signuptryup>:nth-child(2){
+    border-radius: 60%;
+    border: 1px solid skyblue;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
