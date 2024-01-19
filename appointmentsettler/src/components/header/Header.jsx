@@ -8,7 +8,7 @@ const Header = () => {
     <div className={css.container}>
       <div className={css.logo}>
         <img src={Logo} alt="" />
-        <span>Logo here</span>
+        <span>Good Things Here</span>
       </div>
 
       <div className={css.right}>
