@@ -1,6 +1,7 @@
 import React from 'react';
 import css from './Header.module.css';
 import Logo from '../../assets/logo.png';
+import { CgSearchLoading } from "react-icons/cg";
 
 const Header = () => {
   return (
@@ -21,7 +22,7 @@ const Header = () => {
           </ul>
         </div>
         <input type="text" className={css.search} />
-        
+        <CgSearchLoading className={css.cart}/>
       </div>
     </div>
   );
