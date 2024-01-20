@@ -2,6 +2,8 @@ import React from 'react';
 import css from './Header.module.css';
 import Logo from '../../assets/logo.png';
 import { CgSearchLoading } from "react-icons/cg";
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
@@ -14,9 +16,11 @@ const Header = () => {
       <div className={css.right}>
         <div className={css.menu}>
           <ul className={css.menu}>
-            <li>About</li>
+            <li><Link to="/About" target="_blank">About</Link></li>
             <li>New</li>
-            <li>Services</li>
+            <li>
+               <Link to="/services" target="_blank">Services</Link>
+             </li>
             <li>Promo</li>
             <li>ETC</li>
           </ul>

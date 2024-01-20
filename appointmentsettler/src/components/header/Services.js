@@ -1,5 +1,6 @@
 import ServicesItem from "./ServicesItem";
 import { ServicesList } from "./ServicesList";
+import "./Services.css";
 function Services() {
   return (
     <div className="Services">
