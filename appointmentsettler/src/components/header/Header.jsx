@@ -16,10 +16,10 @@ const Header = () => {
       <div className={css.right}>
         <div className={css.menu}>
           <ul className={css.menu}>
-            <li><Link to="/About" target="_blank">About</Link></li>
+            <li><Link to="/About" >About</Link></li>
             <li>New</li>
             <li>
-               <Link to="/services" target="_blank">Services</Link>
+               <Link to="/services" >Services</Link>
              </li>
             <li>Promo</li>
             <li>ETC</li>
