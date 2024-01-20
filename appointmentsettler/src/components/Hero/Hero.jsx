@@ -1,8 +1,6 @@
 import React from 'react';
 import css from './Hero.module.css';
 import HeroImg from '../../assets/HeroImg.png';
-import { FaHeartCirclePlus } from 'react-icons/fa6';
-import { IoIosArrowDropright } from 'react-icons/io';
 import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
 
