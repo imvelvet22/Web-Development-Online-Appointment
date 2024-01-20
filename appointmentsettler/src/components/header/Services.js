@@ -10,9 +10,10 @@ function Services() {
           return (
             <ServicesItem
               key={key}
-              image={ServicesItem.image}
-              name={ServicesItem.name}
-              price={ServicesItem.price}
+              
+              name={servicesItem.name}
+              image={servicesItem.image}
+              price={servicesItem.price}
             />
           );
         })}

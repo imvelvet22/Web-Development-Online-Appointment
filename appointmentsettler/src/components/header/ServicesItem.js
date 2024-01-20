@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function ServicesItem({ image, name, price }) {
   return (
     <div className="servicesItem">

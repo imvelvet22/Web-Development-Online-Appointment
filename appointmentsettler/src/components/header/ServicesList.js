@@ -1,4 +1,4 @@
-import haircut from '../../assets/Haircut.jpg';
+import Haircut from '../../assets/Haircut.jpg';
 import haircolor from '../../assets/haircolor.jpg';
 import rebond from '../../assets/Rebond.jpg';
 import relax from '../../assets/Relax.jpg';
@@ -8,7 +8,7 @@ import pedicure from '../../assets/pedicure.jpg';
 export const ServicesList = [
   {
     name: "Hair Cut",
-    image: haircut,
+    image: Haircut,
     price: 100.00,
   },
   {
