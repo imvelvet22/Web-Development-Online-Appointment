@@ -4,6 +4,7 @@ import HeroImg from '../../assets/HeroImg.png';
 import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
+import Footer from '../header/Footer';
 
 const Hero = () => {
   return (
@@ -38,6 +39,8 @@ const Hero = () => {
           <span>Book Now!!!</span>
           <span>Run Before It Runs Out</span>
           <span>Experience Five Star Salon</span>
+          <span><Footer/ ></span>
+
         </div>
 
         <div className={css.cart2try}>
@@ -51,6 +54,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
+       
       </div>
     </div>
   );
