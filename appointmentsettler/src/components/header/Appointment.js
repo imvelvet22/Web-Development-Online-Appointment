@@ -50,11 +50,13 @@ const AppointmentTab = () => {
             <label>
               Purpose:
               <select value={purpose} onChange={(e) => setPurpose(e.target.value)}>
-                <option value="">Select Purpose</option>
-                <option value="Meeting">Meeting</option>
-                <option value="Consultation">Consultation</option>
-                <option value="Check-up">Check-up</option>
-                <option value="Follow-up">Follow-up</option>
+                <option value="">Select Services</option>
+                <option value="Hair Cut">Hair Cut</option>
+                <option value="Hair Color">Hair Color</option>
+                <option value="Rebond">Rebond</option>
+                <option value="Relax">Relax</option>
+                <option value="Manicure">Manicure</option>
+                <option value="Pedicure">Pedicure</option>
               </select>
             </label>
             <br />
