@@ -15,12 +15,12 @@ function App() {
 
       <Router>
         <Header />
-        <Hero />
         <Slider/>
         <Routes>
-          
+          <Route path="/" element={<Hero />} />
           <Route path="/services" element={<Services />} />
           <Route path="/appointment" element={<AppointmentTab />} />
+        
           
         </Routes>
       
