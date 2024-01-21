@@ -16,7 +16,7 @@ const Header = () => {
       <div className={css.right}>
         <div className={css.menu}>
           <ul className={css.menu}>
-            <li><Link to="/About" >About</Link></li>
+            <li><Link to="/" >About</Link></li>
             <li>New</li>
             <li>
                <Link to="/services" >Services</Link>

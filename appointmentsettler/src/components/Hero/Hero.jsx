@@ -3,6 +3,7 @@ import css from './Hero.module.css';
 import HeroImg from '../../assets/HeroImg.png';
 import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -43,7 +44,7 @@ const Hero = () => {
           <IoHeartHalf />
 
           <div className={css.signuptry}>
-            <span>Book Appointment</span>
+            <span><Link to="/appointment" >Book Appointment</Link></span>
 
             <div>
               <HiOutlineArrowSmallRight />
