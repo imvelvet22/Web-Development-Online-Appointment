@@ -21,8 +21,7 @@ const MenuButton = () => {
 
       {isOpen && (
         <ul className={css.menu}>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><Link to="/about">Home</Link></li>
           <li><Link to="/services">Services</Link></li>
           <li><Link to="/appointment">Appointment</Link></li>
         </ul>
