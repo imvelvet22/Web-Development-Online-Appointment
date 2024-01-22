@@ -5,8 +5,11 @@ import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
 import Footer from '../header/Footer';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
+  const transition = { duration: 3, type: 'spring' };
+
   return (
     <div className={css.container}>
       {/* Left side */}
@@ -21,9 +24,22 @@ const Hero = () => {
 
       {/* Middle side */}
       <div className={css.wrapper}>
-        <div className={css.blueCircle}>
-          <img src={HeroImg} alt="" width={600} />
-        </div>
+        {/* Blue circle */}
+        <motion.div
+          initial={{ bottom: '2rem' }}
+          whileInView={{ bottom: '0rem' }}
+          transition={transition}
+          className={css.blueCircle}
+        ></motion.div>
+        
+        
+        <motion.img
+        transition={transition} 
+        initial={{ bottom: "2rem" }}
+        whileInView={{ bottom: "0rem" }}
+        src={HeroImg} alt="" width={600}
+        />
+
       </div>
 
       {/* Right side */}
@@ -39,22 +55,24 @@ const Hero = () => {
           <span>Book Now!!!</span>
           <span>Run Before It Runs Out</span>
           <span>Experience Five Star Salon</span>
-          <span><Footer/ ></span>
-
+          <span>
+            <Footer />
+          </span>
         </div>
 
         <div className={css.cart2try}>
           <IoHeartHalf />
 
           <div className={css.signuptry}>
-            <span><Link to="/appointment" >Book Appointment</Link></span>
+            <span>
+              <Link to="/appointment">Book Appointment</Link>
+            </span>
 
             <div>
               <HiOutlineArrowSmallRight />
             </div>
           </div>
         </div>
-       
       </div>
     </div>
   );

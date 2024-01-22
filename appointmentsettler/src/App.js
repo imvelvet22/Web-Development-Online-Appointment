@@ -5,6 +5,10 @@ import Header from "./components/header/Header";
 import Hero from "./components/Hero/Hero";
 import Slider from "./components/Slider/Slider";
 import AppointmentTab from './components/header/Appointment';
+import Virtual from "./components/Virtual/Virtual";
+import Last from "./components/Last/Last";
+
+
 
 
 
@@ -16,14 +20,16 @@ function App() {
       <Router>
         <Header />
         <Hero />
-        <Slider/>
+        <Slider />
         <Routes>
           
           <Route path="/services" element={<Services />} />
           <Route path="/appointment" element={<AppointmentTab />} />
           
         </Routes>
-      
+        <Virtual/>
+        <Last />
+        
       </Router>
  
     </div>

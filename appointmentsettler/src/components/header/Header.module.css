@@ -37,14 +37,14 @@
 }
 
 .menu>li:hover{
-    color: #fe956f;
+    color: palevioletred;
     cursor: pointer;
 }
 
 .search{
     width: 7rem;
     outline: none;
-    height: 10%;
+    height: 20%;
     border: none;
     border-radius: 5px;
     padding: 0.5rem;

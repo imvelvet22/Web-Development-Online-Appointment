@@ -10,19 +10,19 @@ const Header = () => {
     <div className={css.container}>
       <div className={css.logo}>
         <img src={Logo} alt="" />
-        <span>Good Things Here</span>
+        <span>Hiraya Beauty</span>
       </div>
 
       <div className={css.right}>
         <div className={css.menu}>
           <ul className={css.menu}>
-            <li><Link to="/" >About</Link></li>
-            <li>New</li>
+            <li><Link to="/" >Home</Link></li>
+            
             <li>
                <Link to="/services" >Services</Link>
              </li>
-            <li>Promo</li>
-            <li>ETC</li>
+            
+            <li>Appointment</li>
           </ul>
         </div>
         <input type="text" className={css.search} placeholder="Search"/>
