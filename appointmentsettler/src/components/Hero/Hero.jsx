@@ -74,20 +74,6 @@ const Hero = () => {
             <Footer />
           </span>
         </div>
-
-        <div className={css.cart2try}>
-          <IoHeartHalf />
-
-          <div className={css.signuptry}>
-            <span>
-            Book Appointment
-            </span>
-
-            <div>
-              <HiOutlineArrowSmallRight />
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
