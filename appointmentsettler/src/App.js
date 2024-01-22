@@ -23,6 +23,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
+          <Route path="/" element={<Slider />} />
           <Route path="/about" element={<Hero/>} />
           <Route path="/services" element={<Services />} />
           {!isServicesRoute && <Route path="/products" element={<Products />} />}
