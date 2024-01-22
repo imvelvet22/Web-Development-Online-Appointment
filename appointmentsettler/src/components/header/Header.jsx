@@ -3,6 +3,7 @@ import css from './Header.module.css';
 import Logo from '../../assets/logo.png';
 import { CgSearchLoading } from "react-icons/cg";
 import { Link } from 'react-router-dom';
+   
 
 
 
@@ -18,12 +19,13 @@ const Header = () => {
         <div className={css.menu}>
           <ul className={css.menu}>
             <li><Link to="/" >Home</Link></li>
-          
+            <li><Link to="/about" >About </Link></li>
             <li>
                <Link to="/services" >Services</Link>
              </li>
-            
-            <li>Appointment</li>
+
+            <li><Link to="/appointment" >Appointment</Link></li>
+
           </ul>
         </div>
         <input type="text" className={css.search} placeholder="Search"/>

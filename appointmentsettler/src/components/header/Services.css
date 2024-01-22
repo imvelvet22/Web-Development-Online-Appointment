@@ -5,35 +5,37 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: -80px;
 }
- 
+
 .menuTitle {
     font-family: cursive;
     font-size: 60px;
 }
- 
+
 .ServicesList {
     width: 70vw;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    justify-content: space-evenly;
 }
- 
+
 .servicesItem {
     border-radius: 15px;
     width: 300px;
-    height: 350px;
+    height: 320px;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
- 
+
 .servicesItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
 }
- 
+
 .servicesItem div {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -43,22 +45,80 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .servicesItem h1,
 .servicesItem p {
     display: flex;
     align-items: center;
     justify-content: center;
 }
- 
-@media only screen and (max-width: 1300px) {
+
+@media only screen and (max-width: 1200px) {
     .ServicesList {
         grid-template-columns: 1fr 1fr;
     }
+
+    .servicesItem {
+        width: 250px;
+        height: 300px;
+    }
+
+    .servicesItem h1 {
+        font-size: 24px;
+    }
+
+    .servicesItem p {
+        font-size: 16px;
+    }
+
+    .menuTitle {
+        text-align: center;
+    }
 }
- 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 768px) {
+    .ServicesList {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .servicesItem {
+        width: 200px;
+        height: 300px;
+    }
+
+    .servicesItem h1 {
+        font-size: 20px;
+    }
+
+    .servicesItem p {
+        font-size: 14px;
+    }
+
+    .menuTitle {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 680px) {
     .ServicesList {
         grid-template-columns: 1fr;
+    }
+
+    .servicesItem {
+        width: 200px;
+        height: 300px;
+    }
+
+    .servicesItem h1 {
+        font-size: 20px;
+    }
+
+    .servicesItem p {
+        font-size: 14px;
+    }
+
+    .menuTitle {
+        font-size: 35px;
+        text-align: center;
     }
 }
