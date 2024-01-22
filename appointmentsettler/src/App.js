@@ -10,7 +10,7 @@ import AppointmentTab from './components/header/Appointment';
 
 import Virtual from './components/Virtual/Virtual';
 import Last from './components/Last/Last';
-
+import MaybeSlider from './components/MaybeShow/MaybeShow';
 
 
 
@@ -23,14 +23,15 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Slider />} />
           <Route path="/about" element={<Hero/>} />
           <Route path="/services" element={<Services />} />
           {!isServicesRoute && <Route path="/products" element={<Products />} />}
           <Route path="/appointment" element={<AppointmentTab />} />
         </Routes>
+        <MaybeSlider>
         <Slider />
         <Virtual />
+        </MaybeSlider>
         <Last />
       </Router>
     </div>
