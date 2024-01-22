@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 
 
 
-import './Slider.css'
+import './Slider.css' 
 import { SliderProducts } from '../../data/products';
 
 

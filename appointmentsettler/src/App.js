@@ -5,15 +5,11 @@ import Header from "./components/header/Header";
 import Hero from "./components/Hero/Hero";
 import Slider from "./components/Slider/Slider";
 import AppointmentTab from './components/header/Appointment';
-<<<<<<< HEAD
 import Virtual from "./components/Virtual/Virtual";
 import Last from "./components/Last/Last";
 
 
-=======
 import Slip from './components/header/slip'; // Make sure the path to slip.js is correct
->>>>>>> 64a198f75dfce5c3b64f9c58814105b9168b99ba
-
 
 
 function App() {
@@ -23,12 +19,9 @@ function App() {
 
       <Router>
         <Header />
-<<<<<<< HEAD
         <Hero />
         <Slider />
-=======
-        <Slider/>
->>>>>>> 64a198f75dfce5c3b64f9c58814105b9168b99ba
+        
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/services" element={<Services />} />
