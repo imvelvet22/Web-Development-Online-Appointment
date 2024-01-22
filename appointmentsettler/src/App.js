@@ -9,8 +9,6 @@ import Virtual from "./components/Virtual/Virtual";
 import Last from "./components/Last/Last";
 
 
-import Slip from './components/header/slip'; // Make sure the path to slip.js is correct
-
 
 function App() {
   return (
@@ -19,14 +17,12 @@ function App() {
 
       <Router>
         <Header />
-        <Hero />
-        <Slider />
         
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Slider />} />
+          <Route path="/about" element={<Hero/>} />
           <Route path="/services" element={<Services />} />
           <Route path="/appointment" element={<AppointmentTab />} />
-          <Route path="/slip" element={<Slip />} />
         </Routes>
         <Virtual/>
         <Last />

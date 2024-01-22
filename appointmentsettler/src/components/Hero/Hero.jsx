@@ -3,7 +3,6 @@ import css from './Hero.module.css';
 import HeroImg from '../../assets/HeroImg.png';
 import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
-import { Link } from 'react-router-dom';
 import Footer from '../header/Footer';
 import { motion } from 'framer-motion';
 
@@ -67,7 +66,7 @@ const Hero = () => {
 
           <div className={css.signuptry}>
             <span>
-              <Link to="/appointment">Book Appointment</Link>
+            Book Appointment
             </span>
 
             <div>

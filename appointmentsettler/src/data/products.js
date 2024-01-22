@@ -13,6 +13,7 @@ import image12 from '../assets/image12.png'
 import image13 from '../assets/image13.png'
 import image14 from '../assets/image14.png'
 
+
 export const SliderProducts = [{
     name: 'FEATURED',
     detail: 'Nail Art',
