@@ -1,7 +1,7 @@
 import Haircut from '../../assets/Haircut.jpg';
 import haircolor from '../../assets/haircolor.jpg';
 import rebond from '../../assets/Rebond.jpg';
-import relax from '../../assets/Relax.jpg';
+import relax from '../../assets/relax.jpg';
 import manicure from '../../assets/manicure.jpg';
 import pedicure from '../../assets/pedicure.jpg';
 
