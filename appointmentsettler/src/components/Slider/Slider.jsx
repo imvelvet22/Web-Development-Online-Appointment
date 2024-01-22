@@ -6,9 +6,9 @@ const Slider = () => {
   return (
     <div className="s-container">
         <Swiper>
-            <SwiperSlide>1</SwiperSlide>
+            {/* <SwiperSlide>1</SwiperSlide>
             <SwiperSlide>2</SwiperSlide>
-            <SwiperSlide>3</SwiperSlide>
+            <SwiperSlide>3</SwiperSlide> */}
         </Swiper>
     </div>
   );
