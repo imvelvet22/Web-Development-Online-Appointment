@@ -3,13 +3,27 @@ import css from './Hero.module.css';
 import HeroImg from '../../assets/HeroImg.png';
 import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Footer from '../header/Footer';
 import { motion } from 'framer-motion';
 
-
 const Hero = () => {
+  const navigate = useNavigate();
+  const isServicesRoute = window.location.pathname === '/services';
+
+  // Redirect to the home page if the services route is active
+  React.useEffect(() => {
+    if (isServicesRoute) {
+      navigate('/');
+    }
+  }, [navigate, isServicesRoute]);
+
   const transition = { duration: 3, type: 'spring' };
+
+  // Render the Hero component only if not on the services route
+  if (isServicesRoute) {
+    return null;
+  }
 
   return (
     <div className={css.container}>
@@ -32,15 +46,15 @@ const Hero = () => {
           transition={transition}
           className={css.blueCircle}
         ></motion.div>
-        
-        
-        <motion.img
-        transition={transition} 
-        initial={{ bottom: "2rem" }}
-        whileInView={{ bottom: "0rem" }}
-        src={HeroImg} alt="" width={600}
-        />
 
+        <motion.img
+          transition={transition}
+          initial={{ bottom: '2rem' }}
+          whileInView={{ bottom: '0rem' }}
+          src={HeroImg}
+          alt=""
+          width={600}
+        />
       </div>
 
       {/* Right side */}
@@ -59,7 +73,6 @@ const Hero = () => {
           <span>
             <Footer />
           </span>
-
         </div>
 
         <div className={css.cart2try}>
