@@ -1,0 +1,22 @@
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* Align items to the right */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
