@@ -1,0 +1,21 @@
+.Slipcontent {
+    width: auto; 
+    height: auto; 
+    border: 1px solid black; 
+    padding: 20px; 
+    margin: auto; 
+    background-color: #f0f0f0; 
+}
+
+.titleContainer {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-between;
+}

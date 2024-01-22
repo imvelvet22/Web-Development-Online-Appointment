@@ -4,8 +4,12 @@ import HeroImg from '../../assets/HeroImg.png';
 import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import Footer from '../header/Footer';
 import { motion } from 'framer-motion';
+=======
+
+>>>>>>> 64a198f75dfce5c3b64f9c58814105b9168b99ba
 
 const Hero = () => {
   const transition = { duration: 3, type: 'spring' };
@@ -55,9 +59,13 @@ const Hero = () => {
           <span>Book Now!!!</span>
           <span>Run Before It Runs Out</span>
           <span>Experience Five Star Salon</span>
+<<<<<<< HEAD
           <span>
             <Footer />
           </span>
+=======
+
+>>>>>>> 64a198f75dfce5c3b64f9c58814105b9168b99ba
         </div>
 
         <div className={css.cart2try}>
