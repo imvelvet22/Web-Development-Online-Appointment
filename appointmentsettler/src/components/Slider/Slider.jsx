@@ -15,7 +15,6 @@ import { SliderProducts } from '../../data/products';
 const Slider = () => {
   return (
     <div className="s-container">
-<<<<<<< HEAD
       <Swiper
       navigation={true}
       className="mySwiper"
@@ -37,13 +36,6 @@ const Slider = () => {
             </SwiperSlide>
         ))}
       </Swiper>
-=======
-        <Swiper>
-            {/* <SwiperSlide>1</SwiperSlide>
-            <SwiperSlide>2</SwiperSlide>
-            <SwiperSlide>3</SwiperSlide> */}
-        </Swiper>
->>>>>>> 64a198f75dfce5c3b64f9c58814105b9168b99ba
     </div>
   );
 };
