@@ -34,7 +34,8 @@ const AppointmentTab = () => {
  return (
     <div className="Appointment">
       <>
-        <h2>Appointment Tab</h2>
+       <h2>Appointment Tab</h2>
+       <h3>Please fill out the appointment form</h3>
         <form onSubmit={handleSubmit}>
           <label>
             Name:

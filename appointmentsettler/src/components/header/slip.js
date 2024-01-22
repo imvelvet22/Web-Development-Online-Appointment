@@ -20,8 +20,8 @@ const Slip = () => {
         <p>Time: <span className="underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{newAppointment.time}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
         </div>
       <p>Purpose: <span className="underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{newAppointment.purpose}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
-      <h3>Note: See your appointment record at the Record Section</h3>
-      <p>Thank you for submitting your appointment.</p>
+      <h3>Note: Please Bring atleast 1 VALID ID</h3>
+      <p className='note'>We are excited to serve you.</p>
     </div>
  );
 };

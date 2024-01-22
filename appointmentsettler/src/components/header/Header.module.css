@@ -1,62 +1,103 @@
-.container{
-    padding: 1.5rem;
-    display: flex;
+.container {
+  padding: 1.5rem;
+  display: flex;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    flex:1;
+.logo {
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
 
-.logo>img{
-    width: 10.5rem;
-    height: 10.5rem;
+.logo > img {
+  width: 10.5rem;
+  height: 10.5rem;
 }
 
-.logo>span{
-    font-weight: 600;
+.logo > span {
+  font-weight: 600;
+  font-size: 20px;
+  align-items: center;
 }
 
-.right{
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
+.right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.menu{
-    display: flex;
-    gap: 2rem;
-    font-weight: 500;
-    list-style: none;
+.menu {
+  display: flex;
+  gap: 2rem;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+  font-size: 20px;
 }
 
-.menu>li:hover{
-    color: #fe956f;
+.menu > li:hover {
+  color: #fe956f;
 }
 
-.menu>li:hover{
-    color: palevioletred;
-    cursor: pointer;
+.menu > li:hover {
+  color: palevioletred;
+  cursor: pointer;
 }
 
-.search{
-    width: 7rem;
-    outline: none;
-    height: 20%;
-    border: none;
-    border-radius: 5px;
+.search {
+  width: 7rem;
+  outline: none;
+  height: 20%;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.cart {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Media query for screens with a maximum width of 768 pixels */
+@media (max-width: 780px) {
+  .logo > span {
+    font-size: 16px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  .right {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .search {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 680px) {
+  /* Add your CSS rules for screens with a maximum width of 680px here */
+  .container {
+    /* Example CSS rule for screens with a maximum width of 680px */
     padding: 0.5rem;
-
-}
-
-.cart{
-    width: 1.5rem;
-    height: 1.5rem;
-}
-@media (max-width: 600px) {
-    .menu {
-        display: none;
-    }
+  }
+  .logo > img {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-left: 0;
+  }
+  .logo > span {
+    font-size: 12px;
+  }
+  .cart {
+      width: 1.5rem;
+      height: 1.5rem;
+      padding:1px;
+  }
 }

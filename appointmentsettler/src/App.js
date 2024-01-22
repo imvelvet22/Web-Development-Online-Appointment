@@ -11,7 +11,7 @@ import AppointmentTab from './components/header/Appointment';
 import Virtual from './components/Virtual/Virtual';
 import Last from './components/Last/Last';
 import MaybeSlider from './components/MaybeShow/MaybeShow';
-
+import Slip from './components/header/slip'
 
 
 
@@ -28,6 +28,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           {!isServicesRoute && <Route path="/products" element={<Products />} />}
           <Route path="/appointment" element={<AppointmentTab />} />
+          <Route path='/slip' element={<Slip/>}/>
         </Routes>
         <MaybeSlider>
         <Slider />

@@ -11,6 +11,8 @@
 .menuTitle {
     font-family: cursive;
     font-size: 60px;
+    margin-top: 20px;
+    padding-top: 100px;
 }
 
 .ServicesList {
@@ -73,6 +75,7 @@
 
     .menuTitle {
         text-align: center;
+        font-size: 50px;
     }
 }
 
