@@ -3,10 +3,7 @@ import css from './Hero.module.css';
 import HeroImg from '../../assets/HeroImg.png';
 import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
-<<<<<<< HEAD
 import { Link, useNavigate } from 'react-router-dom';
-=======
->>>>>>> 5d4731422ba313cb6df66982eb6316baa6d06f42
 import Footer from '../header/Footer';
 import { motion } from 'framer-motion';
 

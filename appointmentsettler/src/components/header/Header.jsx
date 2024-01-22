@@ -33,13 +33,11 @@ const Header = () => {
         <div className={css.menu}>
           <ul className={css.menu}>
             <li><Link to="/" >Home</Link></li>
-            <li>About</li>
-            <li>New</li>
+            <li><Link to="/about" >About</Link></li>
             <li>
                <Link to="/services" >Services</Link>
              </li>
-            <li>Promo</li>
-            <li><Link to="/slip" >ETC</Link></li>
+            <li><Link to="/appointment" >Appointment</Link></li>
           </ul>
         </div>
         <input type="text" className={css.search} placeholder="Search"/>

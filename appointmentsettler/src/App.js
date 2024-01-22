@@ -7,16 +7,13 @@ import Header from './components/header/Header';
 import Hero from './components/Hero/Hero';
 import Slider from './components/Slider/Slider';
 import AppointmentTab from './components/header/Appointment';
-<<<<<<< HEAD
+
 import Virtual from './components/Virtual/Virtual';
 import Last from './components/Last/Last';
-import Slip from './components/header/slip';
-=======
-import Virtual from "./components/Virtual/Virtual";
-import Last from "./components/Last/Last";
 
 
->>>>>>> 5d4731422ba313cb6df66982eb6316baa6d06f42
+
+
 
 function App() {
   const isServicesRoute = window.location.pathname === '/services';
@@ -25,10 +22,6 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-<<<<<<< HEAD
-=======
-        
->>>>>>> 5d4731422ba313cb6df66982eb6316baa6d06f42
         <Routes>
           <Route path="/" element={<Slider />} />
           <Route path="/about" element={<Hero/>} />

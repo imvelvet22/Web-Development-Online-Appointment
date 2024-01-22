@@ -7,6 +7,7 @@ import { ProductsData } from '../../data/products';
 const Products = () => {
   const location = useLocation();
   const [isVisible, setIsVisible] = useState(true);
+  const [MenuProducts, setMenuProducts] = useState(ProductsData);
 
   useEffect(() => {
     setIsVisible(location.pathname !== '/services');
@@ -15,8 +16,6 @@ const Products = () => {
   if (!isVisible) {
     return null;
   }
-
-  const [MenuProducts, setMenuProducts] = useState(ProductsData);
 
   return (
     <div className={css.container}>
