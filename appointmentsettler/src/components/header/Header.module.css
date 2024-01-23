@@ -16,7 +16,7 @@
 
 .logo > span {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   align-items: center;
 }
 
@@ -34,7 +34,6 @@
   font-weight: 500;
   list-style: none;
   font-size: 20px;
-  
 }
 
 .menu > li:hover {
@@ -42,7 +41,7 @@
 }
 
 .menu > li:hover {
-  color: rgb(245, 57, 182);
+  color: palevioletred;
   cursor: pointer;
 }
 
@@ -101,4 +100,31 @@
       height: 1.5rem;
       padding:1px;
   }
+}
+
+@media (max-width: 300px) {
+
+    /* Add your CSS rules for screens with a maximum width of 680px here */
+    .container {
+        /* Example CSS rule for screens with a maximum width of 680px */
+        padding: 0.5rem;
+    }
+
+    .logo>img {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 0;
+    }
+
+    .logo>span {
+        display: none;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
 }

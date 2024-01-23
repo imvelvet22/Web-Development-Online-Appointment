@@ -4,7 +4,6 @@ import HeroImg from '../../assets/HeroImg.png';
 import { IoHeartHalf } from 'react-icons/io5';
 import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
 import { Link, useNavigate } from 'react-router-dom';
-import Footer from '../header/Footer';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -71,7 +70,7 @@ const Hero = () => {
           <span>Run Before It Runs Out</span>
           <span>Experience Five Star Salon</span>
           <span>
-            <Footer />
+            
           </span>
         </div>
       </div>
