@@ -61,7 +61,10 @@ const AppointmentTab = () => {
               <option value="Rebond">Rebond</option>
               <option value="Relax">Relax</option>
               <option value="Manicure">Manicure</option>
-              <option value="Pedicure">Pedicure</option>
+             <option value="Pedicure">Eyebrow Threading</option>
+             <option value="Pedicure">Eyelash Extension</option>
+             <option value="Pedicure">Foot Spa</option>
+             
             </select>
           </label>
           <br />
