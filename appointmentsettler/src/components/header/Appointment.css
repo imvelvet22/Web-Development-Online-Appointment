@@ -67,6 +67,13 @@ input {
   margin-bottom: 5px;
   /* Shortened spacing */
 }
+h3{
+font-weight: 300;
+font-size: 10px;
+margin-right: 5rem;
+
+}
+
 
 @media screen and (max-width: 480px) {
   .Appointment {
@@ -75,6 +82,7 @@ input {
 
   h2 {
     text-align: center;
+    
   }
 
   input {
@@ -84,5 +92,10 @@ input {
 
   button {
     padding: 8px 12px;
+  }
+  h3{
+    margin-right: 5px;
+    font-size: 1px;
+    font-weight: 200;
   }
 }
