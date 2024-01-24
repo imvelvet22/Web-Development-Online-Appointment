@@ -296,6 +296,14 @@
 }
 
 
+@media (min-width: 826px) {
+    .s-container .swiper{
+        width: 55%;
+        height: 12rem;
+        position: unset;
+    }
+    
+}
 
 
 

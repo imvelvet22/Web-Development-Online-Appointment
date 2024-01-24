@@ -76,9 +76,36 @@
     font-style: italic;
   }
 
- 
-}
   
+  .homeLink,
+  .servicesLink,
+  .appointmentLink {
+    text-decoration: none;
+    color: #333; /* Default color */
+    font-size: 16px; /* Default font size */
+  }
+
+  .homeLink:active,
+    .servicesLink:active,
+  .appointmentLink:active {
+    color: #ff0000; /* Change the color to your desired color */
+}
+}
+
+/* Media queryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */
+@media (max-width: 699px) {
+  .homeLink{
+    display: none;
+  }
+  .servicesLink{
+    display: none;
+  }
+  .appointmentLink{
+    display: none;
+  }
+}
+
+
 
 /* Media queryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */
 @media (max-width: 640px) {
@@ -98,7 +125,7 @@
     font-size: small;
     position: absolute;
     margin-top: 30px;
-    top: 0; /* Set top property to ensure it stays in the same vertical position */
+    top: 0;
   }
 
   .menu {
@@ -161,22 +188,22 @@
         display: none;
     }
 
-    /* CSS */
+   
 .menu li {
   display: inline-block;
-  margin-right: 20px; /* Adjust the margin as needed */
-  font-size: 16px; /* Set the desired font size */
+  margin-right: 20px; 
+  font-size: 16px; 
 }
 
 .menu li a {
   text-decoration: none;
-  color: black; /* Set the desired text color */
+  color: black; 
 }
 
 /* Increase the font size for the "Services" and "Appointment" links */
 .menu li:nth-child(2) a,
 .menu li:nth-child(3) a {
-  font-size: 18px; /* Set the desired font size for "Services" and "Appointment" links */
+  font-size: 100px; 
 }
 
 .menu {
@@ -186,16 +213,10 @@
 }
 }
 
-@media (min-width: 1621px) {
-  .s-container .swiper-button-prev{ /* This is the swiper button */
-    left: 1rem;
-    color: black;
-    display: none;
-}
-
-.s-container .swiper-button-next{ /* This is the swiper button */
-    right: 1rem;
-    color: black;
-    display: none;
+@media (min-width: 826px) {
+.menu li a {
+  text-decoration: none;
+  color: #333; /* Adjust the color as needed */
+  font-size: 16px; /* Change the font size as needed */
 }
 }
