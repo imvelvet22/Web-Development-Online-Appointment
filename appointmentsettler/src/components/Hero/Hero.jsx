@@ -1,9 +1,7 @@
 import React from 'react';
 import css from './Hero.module.css';
 import HeroImg from '../../assets/HeroImg.png';
-import { IoHeartHalf } from 'react-icons/io5';
-import { HiOutlineArrowSmallRight } from 'react-icons/hi2';
-import { Link, useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const Hero = () => {

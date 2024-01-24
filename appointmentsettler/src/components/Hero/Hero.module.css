@@ -1,142 +1,141 @@
 .container {
-    padding: 0rem 2rem;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-
+  padding: 0rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
 }
 
 .wrapper {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    position: relative;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  position: relative;
 }
 
 .middleContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.wrapper>img {
-    width: 30rem;
-    position: absolute;
-    bottom: 0;
+.wrapper > img {
+  width: 30rem;
+  position: absolute;
+  bottom: 0;
 }
 
 .blueCircle {
-    width: 30rem;
-    height: 30rem;
-    border-radius: 50%;
-    z-index: -99;
-    position: absolute;
-    bottom: 0;
-    background: linear-gradient(135.74deg, #ff0b34 14.09%, #fd0579 83.81%);
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  z-index: -99;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(135.74deg, #ff0b34 14.09%, #fd0579 83.81%);
 }
 
 .h_sides {
-    display: grind;
-    grid-template-rows: 1fr 1fr;
+  display: grind;
+  grid-template-rows: 1fr 1fr;
 }
 
 .text1 {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    width: min-content;
-    display: block;
-    font-weight: 600;
-    margin-bottom: 2rem;
-
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  width: min-content;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .text1 {
-    display: flex;
-    flex-direction: column;
-    width: min-content;
-    color: black;
+  display: flex;
+  flex-direction: column;
+  width: min-content;
 }
 
-.text2>:first-child {
-    font-weight: 800;
-    font-size: 2.5rem;
-    margin-top: 5rem;
+.text2 > :first-child {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 5rem;
+  color: rgb(15, 114, 6);
 }
 
-.text2>:nth-child(2) {
-    display: block;
-    margin-top: 5rem;
+.text2 > :nth-child(2) {
+  display: block;
+  margin-top: 5rem;
+  font-weight: 500;
 }
 
 .traffic {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
 
-.traffic>:first-child {
-    font-weight: 800;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+.traffic > :first-child {
+  font-weight: 550;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(15, 114, 6);
 }
 
 .customers {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    margin-top: 5rem;
-
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 5rem;
 }
 
-.customers>:first-child {
-    font-weight: 800;
-    text-align: right;
-    font-size: 1.5rem;
+.customers > :first-child {
+  font-weight: 800;
+  text-align: right;
+  font-size: 1.5rem;
+  color: rgb(15, 114, 6);
 }
 
 /*expp at home*/
 .cart2try {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-
-
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.cart2try>svg {
-    width: 20px;
-    height: 20px;
-    background: white;
-    padding: 10px;
-    border-radius: 50%;
-    border: 6px solid var(--black);
-    font-size: 1rem;
+.cart2try > svg {
+  width: 20px;
+  height: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+  border: 6px solid var(--black);
+  font-size: 1rem;
 }
 
 .signuptry {
-    display: flex;
-    gap: 10rem;
-    align-items: center;
-    background: white;
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-.signuptry>:first-child {
-    display: block;
-    width: 6rem;
+.signuptry > :first-child {
+  display: block;
+  width: 6rem;
 }
 
-
-.signuptryup>:nth-child(2) {
-    border-radius: 60%;
-    border: 1px solid skyblue;
-    display: flex;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
+.signuptryup > :nth-child(2) {
+  border-radius: 60%;
+  border: 1px solid skyblue;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
 }
