@@ -28,7 +28,7 @@ const Slider = () => {
               <div>Book Now</div>
             </div>
 
-            <img src={slide.img} alt="product" classname="img-p" />
+            <img src={slide.img} alt="product" className="img-p" />
 
             </SwiperSlide>
         ))}

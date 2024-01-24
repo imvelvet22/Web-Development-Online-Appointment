@@ -30,14 +30,15 @@ const Header = () => {
       </div>
 
       <div className={css.right}>
+        
         <div className={css.menu}>
-          <ul className={css.menu}>
+          
             <li><Link to="/about" >Home</Link></li>
             <li>
                <Link to="/services" >Services</Link>
              </li>
             <li><Link to="/appointment" >Appointment</Link></li>
-          </ul>
+          
         </div>
         <input type="text" className={css.search} placeholder="Search"/>
         <CgSearchLoading className={css.cart}/>
