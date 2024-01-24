@@ -202,6 +202,17 @@
         color: black;
         display: none;
     }
+    .img-p {
+        position: absolute;
+        right: 10;
+        width: 50%;
+        height: 100%;
+        bottom: -50;
+        margin-left: 50px; /* Adjust this value as needed */
+        transform: translateX(40%);
+        margin-left: 40px;
+    }
+
   }
 
   @media (min-width: 861px) {
@@ -216,6 +227,7 @@
         color: black;
         display: none;
     }
+    
   }
 
   @media (min-width: 857px) {
@@ -231,3 +243,60 @@
         display: none;
     }
   }
+
+  @media (min-width: 1790px) {
+    .cart{
+        display: none;
+    }
+    }
+  
+
+    @media (max-width: 390px) { /*tttt*/
+       
+        .s-container .swiper{
+        width: 80%;
+        height: 12rem;
+        position: unset;
+}
+
+.s-container .swiper-slide{
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: 1rem;
+    position: relative;
+    
+}
+
+.img-p {
+    position: absolute;
+    right: 60;
+    width: 40%;
+    height: 100%;
+    bottom: -50;
+    margin-left: 50px; /* Adjust this value as needed */
+    transform: translateX(40%);
+}
+        
+        }
+
+        /* Add this media query to show the buttons again at wider screens */
+@media (min-width: 1791px) {
+    .s-container .swiper-button-prev
+    {
+        display: block;
+        left: 25rem;
+    }
+    .s-container .swiper-button-next{ 
+        right: 25rem;
+        display: block;
+    }
+}
+
+
+
+
+
+
