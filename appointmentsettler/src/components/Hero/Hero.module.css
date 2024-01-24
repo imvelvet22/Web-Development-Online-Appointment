@@ -151,11 +151,9 @@
 font-size: .7rem;
 text-align:  justify;
 
-.text1{
-  font-size: 1px;
 }
 
-.text2 > span:nth-of-type(1)
+.text2 > span:nth-of-type(1){
 .traffic > span:nth-child(1)
 .customers > span:nth-child(1){
   font-size: 1rem;
@@ -201,3 +199,91 @@ text-align:  justify;
       padding: 0.5rem;
   }
 }
+
+@media (max-width: 391px) {
+  .blueCircle {
+    width: 20rem;
+    height: 10rem;
+    border-radius: 50%;
+    z-index: -99;
+    position: absolute;
+    bottom: 0;
+    right: 100; /* Adjust this value to move the circle to the left */
+    display: none;
+    background: linear-gradient(135.74deg, #ff0b34 14.09%, #fd0579 83.81%);
+  }
+
+/* YourComponent.module.css or your regular CSS file */
+.container {
+  /* Your container styles */ display: none;
+}
+
+.h_sides {
+  font-size: 15px; 
+  margin-left: -30px;
+  margin-right: 10px;
+  display: none;
+}
+
+.text1 {
+  font-size: 15px; 
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
+}
+
+.text2 span {
+  font-size: 10px; /* Set the desired font size for spans inside text2 */
+  margin-right: 5px;
+  display: none;
+}
+
+.text2 .text1 {
+  font-size: 15px; 
+  display: none;/* Set the desired font size for text1 inside text2 */
+}
+
+/* Additional styles for other elements if needed */
+
+
+.h_sides {
+  /* Your h_sides styles */display: none;
+}
+
+.traffic span:nth-child(1) {
+  font-size: 20px;
+  margin-top: 10px;
+  display: none; /* Set the desired font size for the first span */
+}
+
+.traffic span:nth-child(2) {
+  font-size: 16px;
+  display: none; /* Set the desired font size for the second span */
+}
+
+.traffic span:nth-child(3) {
+  font-size: 14px;
+  display: none; /* Set the desired font size for the third span */
+}
+
+.traffic span:nth-child(4) {
+  font-size: 12px; /* Set the desired font size for the fourth span */
+  margin-left: 100px;
+  display: none;
+}
+
+.wrapper > img {
+  width: 30rem;
+  position: auto;
+  bottom: 0;
+}
+
+}
+
+@media (max-width: 983px) {
+.container{
+  display: none;
+}
+
+}
+

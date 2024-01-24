@@ -32,20 +32,20 @@ const Header = () => {
       <div className={css.right}>
         
         <div className={css.menu}>
-          
+       
             <li><Link to="/about" >Home</Link></li>
             <li>
                <Link to="/services" >Services</Link>
              </li>
             <li><Link to="/appointment" >Appointment</Link></li>
-          
+            
         </div>
         <input type="text" className={css.search} placeholder="Search"/>
         <CgSearchLoading className={css.cart}/>
         {isMobile ? <MenuIcon /> : null} {/* Render the MenuIcon component only if it's not a mobile screen */}
       </div>
-
-    </div>
+</div>
+    
   );
 }
 

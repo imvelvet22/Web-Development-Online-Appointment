@@ -118,4 +118,116 @@
 }
 
 
+@media (min-width: 1621px)  {
+    .s-container .swiper-button-prev{ /* This is the swiper button */
+      left: 1rem;
+      color: black;
+      display: none;
+  }
+  
+  .s-container .swiper-button-next{ /* This is the swiper button */
+      right: 1rem;
+      color: black;
+      display: none;
+  }
+  }
 
+  @media (min-width: 1621px)  {
+    .s-container .swiper-button-prev{ /* This is the swiper button */
+      left: 1rem;
+      color: black;
+      display: none;
+  }
+  
+  .s-container .swiper-button-next{ /* This is the swiper button */
+      right: 1rem;
+      color: black;
+      display: none;
+  }
+  }
+
+ 
+
+  @media (min-width: 1280px)  {
+    .s-container .swiper-button-prev{ /* This is the swiper button */
+      left: 1rem;
+      color: black;
+      display: none;
+  }
+  
+  .s-container .swiper-button-next{ /* This is the swiper button */
+      right: 1rem;
+      color: black;
+      display: none;
+  }
+  }
+
+  @media (min-width: 1024px)  {
+    .s-container .swiper-button-prev{ /* This is the swiper button */
+      left: 1rem;
+      color: black;
+      display: none;
+  }
+  
+  .s-container .swiper-button-next{ /* This is the swiper button */
+      right: 1rem;
+      color: black;
+      display: none;
+  }
+  }
+
+  @media (min-width: 912px)  {
+    .s-container .swiper-button-prev{ /* This is the swiper button */
+      left: 1rem;
+      color: black;
+      display: none;
+  }
+  
+  .s-container .swiper-button-next{ /* This is the swiper button */
+      right: 1rem;
+      color: black;
+      display: none;
+  }
+}
+
+  @media (min-width: 885px) {
+    .s-container .swiper-button-prev{ /* This is the swiper button */
+        left: 1rem;
+        color: black;
+        display: none;
+    }
+    
+    .s-container .swiper-button-next{ /* This is the swiper button */
+        right: 1rem;
+        color: black;
+        display: none;
+    }
+  }
+
+  @media (min-width: 861px) {
+    .s-container .swiper-button-prev{ /* This is the swiper button */
+        left: 1rem;
+        color: black;
+        display: none;
+    }
+    
+    .s-container .swiper-button-next{ /* This is the swiper button */
+        right: 1rem;
+        color: black;
+        display: none;
+    }
+  }
+
+  @media (min-width: 857px) {
+    .s-container .swiper-button-prev{ /* This is the swiper button */
+        left: 1rem;
+        color: black;
+        display: none;
+    }
+    
+    .s-container .swiper-button-next{ /* This is the swiper button */
+        right: 1rem;
+        color: black;
+        display: none;
+    }
+  }
