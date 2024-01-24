@@ -8,7 +8,7 @@ const Hero = () => {
   const navigate = useNavigate();
   const isServicesRoute = window.location.pathname === '/services';
 
-  // Redirect to the home page if the services route is active
+  
   React.useEffect(() => {
     if (isServicesRoute) {
       navigate('/');
@@ -17,7 +17,7 @@ const Hero = () => {
 
   const transition = { duration: 3, type: 'spring' };
 
-  // Render the Hero component only if not on the services route
+  
   if (isServicesRoute) {
     return null;
   }

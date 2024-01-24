@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Services from './components/header/Services';
-import Products from './components/Products/Products'; // Update the path to your Products component
+import Products from './components/Products/Products'; 
 import "./App.css";
 import Header from './components/header/Header';
 import Hero from './components/Hero/Hero';
